@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Editorial Portfolio | Projects</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "background": "#fcf9f8",
+                "primary": "#03192e",
+                "secondary": "#9b4149",
+                "surface-container": "#f0eded",
+                "surface-container-low": "#f6f3f2",
+                "surface-container-high": "#eae7e7",
+                "on-surface": "#1b1c1c",
+                "on-surface-variant": "#43474d",
+                "outline": "#74777d",
+                "on-primary": "#ffffff"
+              },
+              fontFamily: {
+                "headline": ["Noto Serif"],
+                "body": ["Manrope"],
+                "label": ["Manrope"]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        .text-editorial-display { letter-spacing: -0.02em; }
+        .text-editorial-label { letter-spacing: 0.05em; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body">
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f8]/80 backdrop-blur-xl shadow-[0_20px_40px_rgba(27,28,28,0.04)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-6">
+<span class="text-2xl font-headline tracking-tighter text-primary">The Editorial Portfolio</span>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-on-surface hover:text-secondary transition-colors duration-300 font-label text-editorial-label" href="index.html">Home</a>
+<a class="text-on-surface hover:text-secondary transition-colors duration-300 font-label text-editorial-label" href="experience.html">Experience</a>
+<a class="text-secondary font-semibold border-b-2 border-secondary pb-1 font-label text-editorial-label" href="projects.html">Projects</a>
+<a class="text-on-surface hover:text-secondary transition-colors duration-300 font-label text-editorial-label" href="contact.html">Contact</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2 rounded font-label uppercase text-editorial-label text-xs tracking-widest inline-flex items-center" href="contact.html">Let's Talk</a>
+</div>
+</nav>
+<main class="pt-32">
+<section class="max-w-6xl mx-auto px-8 py-20">
+<span class="font-label text-xs uppercase tracking-widest text-secondary block mb-4">Selected Work</span>
+<h1 class="text-5xl md:text-7xl font-headline text-primary text-editorial-display mb-8">Featured Projects</h1>
+<p class="text-lg text-on-surface-variant max-w-2xl leading-relaxed">A curated collection of brand, product, and digital experience work designed with strong editorial structure.</p>
+</section>
+<section class="max-w-6xl mx-auto px-8 pb-24 grid grid-cols-1 md:grid-cols-2 gap-12">
+<article class="bg-surface-container-low p-8 space-y-6">
+<div class="aspect-[4/5] bg-surface-container-high overflow-hidden">
+<img alt="Spatial Elegance project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSWuXMvpI08KDCcgexuZSL4Yr3VGxF6R2_fsTX7a2yOM9eo7XI4M02iSyUXOt5G57Xb46TlUFaVrvsQcm99EAb3tCQudzSm4jYj8NWzkD_HTIVe0o-pnSL5tPQMi7oXpGBkpUUea-mXUrEG-CIk0KJEWuvWjqGjHtfx5YW-amu4fGYVDy0ynBtfrh7wO1nk58XRtsmZ8km_9NnNQKQlyPw-HXPJBpY4FJo2Mx6JPHFgqh9py4Mv94fQQ8TmpJfsFs4L7VKd2Im5g"/>
+</div>
+<div>
+<h2 class="text-2xl font-headline text-primary">Spatial Elegance</h2>
+<p class="text-on-surface-variant mt-2 leading-relaxed">Identity and web direction for a Berlin architecture practice with a refined, gallery-like digital presence.</p>
+</div>
+</article>
+<article class="bg-surface-container-low p-8 space-y-6 md:mt-16">
+<div class="aspect-square bg-surface-container-high overflow-hidden">
+<img alt="Chronos Luxe project" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF_5DCt6CUICzNiOkHdfon9SssSWKOyLb0C9Z8zaOy-m2r-Sw2FaWTEnDXX6n908LZFIXelBlLE_AwuFmNyrDEoSv7EWykYcUNM7SJpSXvIWAJElhcDO_tmqrXcuYmjCB4h1A7CG70Hmny1T3hv7EYy7PHXTnRk6PmRvNqulRO2eFz6EIpnetqvohv-fNAWPgxtf1m84xQHK1TrJdTXoxW4uEwpcWG78vLzdrrReq3jfk_5telfr8dIiW_s6CjlYQSOIWcgU61FQ"/>
+</div>
+<div>
+<h2 class="text-2xl font-headline text-primary">Chronos Luxe</h2>
+<p class="text-on-surface-variant mt-2 leading-relaxed">E-commerce storytelling and art direction for an artisanal watchmaker launching a premium online flagship.</p>
+</div>
+</article>
+</section>
+</main>
+</body>
+</html>
